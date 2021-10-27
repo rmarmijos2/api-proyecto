@@ -11,6 +11,6 @@ class Producto {
     @Column(updatable = false)
     var id: Long? = null
 
-    var description: String? = null
+    var descripcion: String? = null
     var precio: String? = null
 }

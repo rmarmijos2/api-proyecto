@@ -1,15 +1,15 @@
-CREATE TABLE IF NOT EXISTS productos (
+create table if not exists productos (
   id serial,
-  descripcion VARCHAR(45) NOT NULL,
-  precio VARCHAR(45) NOT NULL,
-  PRIMARY KEY (id)
+  descripcion varchar(45) not null,
+  precio varchar(45) not null,
+  primary key (id)
   );
 
-  CREATE TABLE IF NOT EXISTS cliente (
+  create table if not exists cliente (
     id serial,
-    nombre VARCHAR(45) NOT NULL,
-    apellido VARCHAR(45) NOT NULL,
-    edad VARCHAR(2) NOT NULL,
-    cedula VARCHAR(10) NOT NULL,
-    PRIMARY KEY (id)
+    nombre varchar(45) not null,
+    apellido varchar(45) not null,
+    edad varchar(2) not null,
+    cedula varchar(10) not null,
+    primary key (id)
     );
