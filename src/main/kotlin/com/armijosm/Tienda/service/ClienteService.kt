@@ -1,7 +1,6 @@
 package com.armijosm.Tienda.service
 
 import com.armijosm.Tienda.model.Cliente
-import com.armijosm.Tienda.model.Producto
 import com.armijosm.Tienda.repository.ClienteRepository
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service

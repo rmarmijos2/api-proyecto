@@ -1,7 +1,6 @@
 package com.armijosm.Tienda.controller
 
 import com.armijosm.Tienda.model.Cliente
-import com.armijosm.Tienda.model.Producto
 import com.armijosm.Tienda.service.ClienteService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.*
